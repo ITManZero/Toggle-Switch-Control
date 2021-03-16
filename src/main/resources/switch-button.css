@@ -1,0 +1,26 @@
+.switch-button {
+-fx-background-color:transparent;
+}
+
+.switch-button:selected .background{
+-fx-background-color: linear-gradient(to right, #355c3f 0%, #387750 21%, #588e6a 86%);
+
+
+ }
+
+ .switch-button:selected .shape{
+-fx-fill:white;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+  }
+
+.switch-button .background {
+-fx-cursor:hand;
+-fx-background-color:#333333;
+}
+
+.switch-button .shape {
+-fx-cursor:hand;
+-fx-fill:#D1D6EE;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
